@@ -1,0 +1,60 @@
+baseurl         = "https://markusko.ch"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "markusko.ch"
+  #subtitle    = "Port of Casper 2.x for Hugo"
+
+  cover       = "img/banner.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "jbob86"
+  #fbName = "fakeghost"
+  githubName = "jbob"
+
+  #logo = "hugo-logo.png"
+  #orgName = "EM"
+  #orgWebsite = "https://www.telematika.org"
+  #orgDescription = "Here is a description placeholder for your org"
+
+  author = "Markus Koch"
+  authorAvatar = "img/avatar.jpg"
+  #authorLocation = "Bandung, ID"
+  authorWebsite = "https://markusko.ch"
+  authorDescription = "jbob"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/categories/projects/"
+  weight = 100
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 90
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 89
