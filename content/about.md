@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2018-10-10T18:14:30+02:00
-#author: "Markus Koch (jbob)"
 cover: "banner.jpg"
 draft: false
 ---

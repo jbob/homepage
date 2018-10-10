@@ -1,4 +1,4 @@
-baseurl         = "https://markusko.ch"
+baseurl         = "https://markusko.ch/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
