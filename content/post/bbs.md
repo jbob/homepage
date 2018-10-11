@@ -11,7 +11,7 @@ bbs is a bulletin board system, written with Perl/MongoDB.
 
 ![bbs screenshot](/img/bbs.png)
 
-See it in action at [telnet sesame.markusko.ch 1337](telnet://sesame.markusko.ch:1337).
+See it in action at [telnet markusko.ch 1337](telnet://markusko.ch:1337).
 
 
 The [code](https://github.com/jbob/sesame) can be found on Github.
