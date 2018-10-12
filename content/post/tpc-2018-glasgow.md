@@ -21,7 +21,7 @@ pointing to the video with the appropriate timestamp.
 * [Opening: Welcome to Glasgow](https://youtube.com/watch?v=KrGSg7uVZj0&t=215) –
   20 min
 
-* [(Discourse Without Drama](https://www.youtube.com/watch?v=KrGSg7uVZj0&t=955s)
+* [Discourse Without Drama](https://www.youtube.com/watch?v=KrGSg7uVZj0&t=955s)
   – Ruth Holloway (GeekRuthie) – 50 min
 
 * [When diff is not enough](https://www.youtube.com/watch?v=KrGSg7uVZj0&t=5710s)
