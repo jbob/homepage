@@ -236,7 +236,7 @@ Clark – 20 min
   Scanner](https://youtube.com/watch?v=_i9iske66us&t=9763) – Lee Johnson – 20
   min
 
-* [Putten the 'Open' in OpenSource
+* [Putting the 'Open' in OpenSource
   Events](https://youtube.com/watch?v=_i9iske66us&t=11567) – Ruth Holloway
   (GeekRuthie) – 50 min
 
