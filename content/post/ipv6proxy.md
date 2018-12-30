@@ -54,7 +54,7 @@ The result will be:
 You will notice, that for IPv6 we are using a different port number. That is
 because otherwise xinetd will complain with something like this:
 
-    xinetd: bind failed (Address already in use (errno = 98). service = transmission6
+    xinetd: bind failed (Address already in use (errno = 98)). service = transmission6
     xinetd: Service transmission6 failed to start and is deactivated.
 
 This is because xinetd sees that something is already listening on the (IPv4)
