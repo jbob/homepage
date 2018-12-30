@@ -42,9 +42,9 @@ service:
         port            = 9092
     }
 
-And then restart `xinetd`:
+And then reload `xinetd`:
 
-    # systemctl restart xinetd
+    # systemctl reload xinetd
 
 The result will be:
 
@@ -58,12 +58,12 @@ because otherwise xinetd will complain with something like this:
     xinetd: Service transmission6 failed to start and is deactivated.
 
 This is because xinetd sees that something is already listening on the (IPv4)
-port 9091. The flags IPv6 doesn't seem to have much of an effect. I've also
-tried to add: 
+port 9091. The flags IPv6 doesn't seem to have much of an effect. Adding:
 
     bind            = ::
 
-to the service definition (the equivalent of 0.0.0.0 in IPv4) without success.
+to the service definition (the equivalent of 0.0.0.0 in IPv4) does not work
+either.
 
 If you absolutely need to use the same port for IPv4 and IPv6 its necessary to
 specify the exact IPv6 address xinetd should bind the service to like this:
@@ -73,13 +73,13 @@ specify the exact IPv6 address xinetd should bind the service to like this:
         port            = 9091
 
 If you IPv6 additionally changes over time (changing network prefix etc.) you
-have to regulary update the service definition and restart xinetd:
+have to regulary update the service definition and reload xinetd:
 
-    #/bin/sh
+    #!/bin/sh
 
     address=$(ip -6 addr list scope global dev eth0 | grep -v " fd" | sed -n 's/.*inet6 \([0-9a-f:]\+\).*/\1/p' | head -n 1)
     sed "s/%BIND%/$address/" $HOME/transmission6 > /etc/xinetd.d/transmission6
-    systemctl restart xinetd
+    systemctl reload xinetd
 
 The `$HOME/transmission6` file in that case is your template for the service
 definition, in which `%BIND%` will be replaced with you current IPv6 address.
