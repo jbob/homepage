@@ -9,7 +9,7 @@ draft: false
 
 If you have to deal with legacy applications that do not have native IPv6
 support and you need to access via IPv6 there is a way to (ab-)use xinetd to
-listen for the incoming IPv6 traffic and forward it the IPv4 port.
+listen for the incoming IPv6 traffic and forward it to the IPv4 port.
 
 In this example we are going to use the Web interface of Transmision, which
 currently can't be configured to be accessible via IPv6, but other things, like
