@@ -58,7 +58,7 @@ because otherwise xinetd will complain with something like this:
     xinetd: Service transmission6 failed to start and is deactivated.
 
 This is because xinetd sees that something is already listening on the (IPv4)
-port 9091. The flags IPv6 doesn't seem to have much of an effect. Adding:
+port 9091. The `flags = IPv6` doesn't seem to have much of an effect. Adding:
 
     bind            = ::
 
