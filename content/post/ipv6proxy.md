@@ -72,8 +72,8 @@ specify the exact IPv6 address xinetd should bind the service to like this:
         ...
         port            = 9091
 
-If you IPv6 additionally changes over time (changing network prefix etc.) you
-have to regulary update the service definition and reload xinetd:
+If your IPv6 address additionally changes over time (changing network prefix
+etc.) you have to regulary update the service definition and reload xinetd:
 
     #!/bin/sh
 
