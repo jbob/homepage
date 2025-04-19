@@ -2,7 +2,7 @@ baseurl         = "https://markusko.ch/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
-paginate        = 6
+pagination.pagerSize = 6
 #SectionPagesMenu = "main"
 
 [params]
