@@ -1,7 +1,7 @@
 ---
 title: "IPv6 to IPv4 proxy with xinetd"
 date: 2018-12-14T19:48:02+01:00
-categories: ["Sysadmin"]
+categories: ["Projects"]
 tags: ["ipv6", "ipv4", "proxy", "xinetd"]
 image: "img/code.png"
 draft: false
@@ -83,5 +83,3 @@ etc.) you have to regulary update the service definition and reload xinetd:
 
 The `$HOME/transmission6` file in that case is your template for the service
 definition, in which `%BIND%` will be replaced with you current IPv6 address.
-
-

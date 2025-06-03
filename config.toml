@@ -16,7 +16,7 @@ pagination.pagerSize = 6
   customCSS = []
   RSSLink = ""
 
-  twitterName = "jbob86"
+  #twitterName = "jbob86"
   #fbName = "fakeghost"
   githubName = "jbob"
 
@@ -34,7 +34,7 @@ pagination.pagerSize = 6
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
-  singleViewStyle = "casper"
+  singleViewStyle = "caspertwo"
 
 [permalinks]
   post = "/:slug/"
